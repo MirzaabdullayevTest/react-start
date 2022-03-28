@@ -1,0 +1,23 @@
+.car:hover {
+    transform: scale(1.2);
+}
+
+.car {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 8px #ccc;
+    padding: 10px 50px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.success {
+    border: 2px solid green;
+}
